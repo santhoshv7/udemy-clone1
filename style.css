@@ -57,6 +57,10 @@ color:#A435F0
     align-items: center;
     
 }
+
+.navbar__s4{
+    display:none;
+}
 /* My Learning Pop up */
 .mylearning{
     position:relative;
@@ -122,6 +126,8 @@ color:#A435F0
 
 .course-card{
     width:250px;
+    flex-basis:20%;
+    margin:5px;
 
 }
 
@@ -218,4 +224,28 @@ color:#A435F0
 
     }
     
+}
+
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+    }
+    .categories{
+        display:none;
+    }
+    .navbar__s2, .navbar__s3{
+        display:none;
+    }
+
+    .navbar__s4{
+        display:block;
+    }
+
 }
