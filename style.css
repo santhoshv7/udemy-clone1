@@ -196,15 +196,15 @@ color:#A435F0
 }
 
 .sale-image__offer{
-    width:35%;
+    width:40%;
     border: solid black 2px;
 
     
     background-color: white;
     position:absolute;
-    left:100px;
-    bottom:200px;
-    padding:2%;
+    left:50px;
+    bottom:120px;
+    padding:0.4%;
     animation-name:zoom;
     animation-duration: 2s;
     opacity: 0;
